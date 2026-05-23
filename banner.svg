@@ -1,0 +1,108 @@
+<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0325"/>
+      <stop offset="55%" stop-color="#1e0a4a"/>
+      <stop offset="100%" stop-color="#2d1169"/>
+    </linearGradient>
+    <linearGradient id="gl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="280" fill="url(#bg)"/>
+  <rect width="350" height="280" fill="url(#gl)"/>
+  <rect x="550" width="350" height="280" fill="url(#gr)"/>
+
+  <!-- Dot grid left -->
+  <g opacity="0.08" fill="#a78bfa">
+    <circle cx="30" cy="30" r="1.5"/><circle cx="70" cy="30" r="1.5"/><circle cx="110" cy="30" r="1.5"/><circle cx="150" cy="30" r="1.5"/>
+    <circle cx="30" cy="70" r="1.5"/><circle cx="70" cy="70" r="1.5"/><circle cx="110" cy="70" r="1.5"/><circle cx="150" cy="70" r="1.5"/>
+    <circle cx="30" cy="110" r="1.5"/><circle cx="70" cy="110" r="1.5"/><circle cx="110" cy="110" r="1.5"/><circle cx="150" cy="110" r="1.5"/>
+    <circle cx="30" cy="150" r="1.5"/><circle cx="70" cy="150" r="1.5"/><circle cx="110" cy="150" r="1.5"/><circle cx="150" cy="150" r="1.5"/>
+    <circle cx="30" cy="190" r="1.5"/><circle cx="70" cy="190" r="1.5"/><circle cx="110" cy="190" r="1.5"/><circle cx="150" cy="190" r="1.5"/>
+    <circle cx="30" cy="230" r="1.5"/><circle cx="70" cy="230" r="1.5"/><circle cx="110" cy="230" r="1.5"/><circle cx="150" cy="230" r="1.5"/>
+  </g>
+  <!-- Dot grid right -->
+  <g opacity="0.08" fill="#a78bfa">
+    <circle cx="720" cy="230" r="1.5"/><circle cx="760" cy="230" r="1.5"/><circle cx="800" cy="230" r="1.5"/><circle cx="840" cy="230" r="1.5"/><circle cx="880" cy="230" r="1.5"/>
+    <circle cx="720" cy="250" r="1.5"/><circle cx="760" cy="250" r="1.5"/><circle cx="800" cy="250" r="1.5"/><circle cx="840" cy="250" r="1.5"/><circle cx="880" cy="250" r="1.5"/>
+  </g>
+
+  <!-- Decorative ring top-right -->
+  <circle cx="840" cy="45" r="55" fill="none" stroke="#7c3aed" stroke-width="0.6" opacity="0.25"/>
+  <circle cx="840" cy="45" r="35" fill="none" stroke="#7c3aed" stroke-width="0.4" opacity="0.18"/>
+
+  <!-- ===== LEFT TEXT ===== -->
+  <text x="55" y="78" font-size="13" fill="#c4b5fd" letter-spacing="1.5" opacity="0.95">👋  Hi, I am</text>
+  <text x="53" y="130" font-size="36" font-weight="700" fill="#a78bfa" letter-spacing="1.2">TAMILSELVI M</text>
+  <text x="55" y="156" font-size="12.5" fill="#94a3b8" letter-spacing="3.5" font-weight="400">FULL STACK DEVELOPER</text>
+  <line x1="55" y1="168" x2="430" y2="168" stroke="#4c1d95" stroke-width="1"/>
+
+  <!-- Email -->
+  <rect x="55" y="180" width="16" height="16" rx="3" fill="#22c55e" opacity="0.9"/>
+  <text x="63" y="192" text-anchor="middle" font-size="10" fill="#fff">@</text>
+  <text x="78" y="193" font-size="12" fill="#94a3b8">tamilselviranjani@gmail.com</text>
+
+  <!-- GitHub -->
+  <rect x="55" y="202" width="16" height="16" rx="3" fill="#22c55e" opacity="0.9"/>
+  <text x="63" y="214" text-anchor="middle" font-size="10" fill="#fff">⌥</text>
+  <text x="78" y="215" font-size="12" fill="#94a3b8">github.com/tamilselvi87</text>
+
+  <!-- LinkedIn -->
+  <rect x="55" y="224" width="16" height="16" rx="3" fill="#0077b5" opacity="0.9"/>
+  <text x="63" y="236" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">in</text>
+  <text x="78" y="237" font-size="12" fill="#94a3b8">linkedin.com/in/tamilselvi-m</text>
+
+  <!-- ===== RIGHT ILLUSTRATION ===== -->
+  <!-- Monitor -->
+  <rect x="555" y="105" width="115" height="82" rx="7" fill="#1a0840" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="562" y="112" width="101" height="67" rx="4" fill="#0a0218"/>
+  <!-- Code lines -->
+  <rect x="569" y="120" width="52" height="4" rx="2" fill="#7c3aed" opacity="0.85"/>
+  <rect x="569" y="129" width="36" height="4" rx="2" fill="#06b6d4" opacity="0.75"/>
+  <rect x="577" y="138" width="62" height="4" rx="2" fill="#22c55e" opacity="0.65"/>
+  <rect x="577" y="147" width="44" height="4" rx="2" fill="#a78bfa" opacity="0.75"/>
+  <rect x="569" y="156" width="30" height="4" rx="2" fill="#06b6d4" opacity="0.55"/>
+  <rect x="569" y="165" width="56" height="4" rx="2" fill="#7c3aed" opacity="0.65"/>
+  <!-- Cursor -->
+  <rect x="627" y="120" width="3" height="11" rx="1" fill="#a78bfa"/>
+  <!-- Monitor stand + base -->
+  <rect x="609" y="187" width="7" height="38" rx="2" fill="#3b1980"/>
+  <rect x="585" y="222" width="55" height="5" rx="3" fill="#3b1980"/>
+
+  <!-- Front-end bubble -->
+  <circle cx="726" cy="108" r="30" fill="#160836" stroke="#a78bfa" stroke-width="1.3"/>
+  <text x="726" y="102" text-anchor="middle" font-size="14" fill="#a78bfa">⌨</text>
+  <text x="726" y="118" text-anchor="middle" font-size="9" fill="#c4b5fd" letter-spacing="0.5">Front-end</text>
+
+  <!-- Back-end bubble -->
+  <circle cx="718" cy="188" r="28" fill="#160836" stroke="#06b6d4" stroke-width="1.3"/>
+  <text x="718" y="183" text-anchor="middle" font-size="14" fill="#06b6d4">⚙</text>
+  <text x="718" y="198" text-anchor="middle" font-size="9" fill="#7dd3fc" letter-spacing="0.5">Back-end</text>
+
+  <!-- Full Stack bubble -->
+  <circle cx="793" cy="198" r="28" fill="#160836" stroke="#f97316" stroke-width="1.3"/>
+  <text x="793" y="193" text-anchor="middle" font-size="14" fill="#f97316">◈</text>
+  <text x="793" y="208" text-anchor="middle" font-size="9" fill="#fdba74" letter-spacing="0.5">Full Stack</text>
+
+  <!-- Connector lines between bubbles -->
+  <line x1="718" y1="160" x2="718" y2="162" stroke="#4c1d95" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <line x1="726" y1="138" x2="726" y2="140" stroke="#4c1d95" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <!-- Decorative stars -->
+  <text x="544" y="98" font-size="10" fill="#a78bfa" opacity="0.5">✦</text>
+  <text x="862" y="148" font-size="8" fill="#06b6d4" opacity="0.4">✦</text>
+  <text x="496" y="215" font-size="7" fill="#7c3aed" opacity="0.35">✦</text>
+  <text x="876" y="210" font-size="7" fill="#a78bfa" opacity="0.35">✦</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="274" width="900" height="4" fill="#4c1d95" opacity="0.6"/>
+  <rect x="0" y="276" width="900" height="4" fill="#7c3aed" opacity="0.25"/>
+</svg>
